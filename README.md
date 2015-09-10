@@ -1,6 +1,6 @@
 # simple-save
 A stupidly simple way of persisting values in nodejs.
-This will rewrite tagged literal values that are assigned to variabled in your source code.
+This will rewrite tagged literal values that are assigned to variables in your source code.
 
 # Install
 ```bash
