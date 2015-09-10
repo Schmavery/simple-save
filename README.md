@@ -2,6 +2,13 @@
 A stupidly simple way of persisting values in nodejs.
 This will rewrite tagged literal values that are assigned to variables in your source code.
 
+
+- No config files!
+- No environment variables!
+- No databases!
+
+Persist hardcoded data in your source files like you've always wanted!
+
 # Install
 ```bash
   npm install simple-save

@@ -2,7 +2,7 @@ var fs = require("fs");
 delete require.cache[__filename];
 
 var escapeRegex = function(s) {
-  return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+  if (s) return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
 
 module.exports = function (pattern) {

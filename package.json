@@ -1,6 +1,6 @@
 {
   "name": "simple-save",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A stupidly simple way to persist data.",
   "main": "index.js",
   "scripts": {
